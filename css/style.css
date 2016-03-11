@@ -1,0 +1,198 @@
+/* Empty. Add your own CSS if you like */
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.icones{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 15px;
+}
+.icones p{
+	margin-bottom: 0px;
+}
+.carros{
+	width: 100%;
+	padding: 15px 5%;
+}
+.carros img{
+    /*border-radius: 50%;*/
+}
+.carros .vintecinco{
+	width: 25%;
+	float: left;
+}
+.carros .vintecinco img{
+	margin-top: 5px;
+}
+.carros .setentaecinco{
+	width: 75%;
+	float: left;
+}
+.carros .setentaecinco h2{
+	margin-top: 20px;
+	margin-bottom: 4px;
+	font-size: 1.3em;
+}
+.carros .setentaecinco p{
+	font-size: 1.0em;
+}
+.carros h2{
+	color: #FFF;
+	font-size: 1.6em;
+}
+.carros p{
+	color: #FFF;
+}
+.bgcinza{
+	background: #3c3c3c url('../img/bg-carro_03.jpg') no-repeat center center ;	
+    border-bottom: 1px solid red;
+    border-top: 1px solid #525151;
+}
+.bar-dark{
+	background: #2c2c2c!important;
+}
+.scroll-content{
+	background: #fff900 url('../img/bg-yellow.jpg') no-repeat center bottom ;	
+}
+#sideblack{
+	background: #3c3c3c !important;
+}
+#sideblack .item{
+	background: none;
+	border-color: #525151;
+}
+#sideblack .item .item-content{
+	background: none;
+	color: #ffffff;
+}
+.tt-interna{
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.6em;
+	color:#373737;
+	margin: 15px 0 5px 0 !important;
+}
+.form .item{
+	margin-bottom: 10px;
+}
+.has-errors{
+	border-color: red;
+}
+.has-errors-message{
+    color: #e42112;
+    top: -10px !important;
+    position: relative;
+}
+.upper{
+	text-transform: uppercase;
+}
+.text-right{
+	text-align: right;
+}
+.text-right span{
+    top: -9px;
+    position: relative;
+}
+.mycars{
+	background: #FFF url('../img/mycarbg_03.png') no-repeat left center;
+	display: block;
+	height: 67px;
+    border-radius: 15px;
+    width: 94%;
+    margin-left: 3%;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	box-shadow: 0 0 15px 0px #BF9C7E;
+    -webkit-box-shadow: 0 0 15px 0px #BF9C7E;
+}
+.mycars div{
+	margin-left: 75px; 
+    border-radius: 15px;
+}
+.mycars div p{
+	color: #373737;
+}
+.mycars div h4{	
+	margin: 5px 0 0 0 ;
+	text-transform: uppercase;
+}
+.informations{
+    text-align: center;
+    width: 96%;
+    margin-left: 2%;
+}
+.tt-detalhes{
+	font-size: 1.2em;
+	color:#373737;
+    width: 96%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.tt-detalhes span{
+	font-size: 11px;
+	color:#373737;
+	font-weight: normal;
+	margin: 0 0 0 15px;
+}
+.iconeround{
+    padding: 1px 4px;
+    border: 1px solid;
+    border-radius: 74px;
+    font-size: 12px;
+}
+.white{
+	background: #fff;
+}
+.borderbottom{
+	border-bottom: 1px solid #373737;
+}
+.containter{
+	width: 96%;
+	margin-left: 2%;
+}
+.white p{
+	font-size: 0.8em;
+	margin: 0;
+    font-weight: bold;
+}
+.white p.desc{
+	margin: 4px 0 0 0;
+    font-weight: normal;
+}
+.yellow{
+	background: #fff300;
+}
+.detrans{
+	background: #FFFFFF;
+	color:#373737;
+	min-height: 67px;
+	position: relative;
+    border-radius: 15px;
+    width: 94%;
+    margin-left: 3%;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	box-shadow: 0 0 15px 0px #BF9C7E;
+    -webkit-box-shadow: 0 0 15px 0px #BF9C7E;
+}
+.detrans h4{
+    width: 80%;
+    margin-left: 6%;
+    margin-bottom: 5px;
+    color: #373737;
+}
+.detrans p{
+	padding-left: 6%
+}
+.detrans .ion-android-pin,.detrans .ion-ios-telephone{
+	position: absolute;
+    right: 20px;
+    top: 26px;
+    font-size: 1.45em;
+    color: #d0d0d0;
+}

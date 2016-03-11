@@ -1,0 +1,23 @@
+<ion-view view-title="Notificações">
+  	<ion-content overflow-scroll="true">
+	  	<div class="row">
+	  		<div class="col">
+	  			<h2 class="tt-interna">Notificações</h2>
+	  		</div>
+	  	</div>
+	  	
+	  		
+	  	<ul>
+	  		<li ng-repeat="notification in notifications | reverse">
+	  			<a class="detrans" ng-swipe-left="deletar(notification)" >
+	  				<h4>{{notification.title}}</h4>
+	  				<p>{{notification.message}}</p>
+	  			</a>
+	  		</li>				
+	  					
+	  	</ul>
+	  	
+
+
+  	</ion-content>
+</ion-view>

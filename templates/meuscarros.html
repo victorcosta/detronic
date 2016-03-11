@@ -1,0 +1,30 @@
+<ion-view view-title="Meus Veículos">
+  	<ion-content overflow-scroll="true">
+	  	<div class="row">
+	  		<div class="col">
+	  			<h2 class="tt-interna" >Meus <strong>Veículos</strong></h2>
+	  		</div>
+	  	</div>
+	  	
+	  		
+	  	<ul ng-show="mycars">
+	  		<li ng-repeat="mycar in mycars | unique:'placa'">
+	  			<a href="#/app/detalhes/{{mycar.placa}}/{{mycar.renavam}}/false" class="mycars" ng-swipe-left="deletar(mycar)" >
+	  				<div>	
+		  				<h4>{{mycar.placa}}</h4>
+		  				<p>{{mycar.marca}} - {{mycar.ano}}</p>
+	  				</div>	
+	  			</a>
+	  		</li>				
+	  	</ul>
+	  	<div class="informations" ng-show="!mycars">
+	  		<h4>Nenhum veículo cadastrado</h4>
+	  		<p>Você ainda não catastrou nenhum veículo, para cadastrar basta fazer uma consulta e marcar o botão salvar veículo, clique no botão abaixo para fazer a consulta</p>
+	  		<a class="button button-small button-dark" href="#/app/consultaveiculo">
+	  			consultar veículos
+	  		</a>
+	  	</div>
+
+
+  	</ion-content>
+</ion-view>

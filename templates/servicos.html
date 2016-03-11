@@ -1,0 +1,23 @@
+<ion-view view-title="Serviços">
+  	<ion-content overflow-scroll="true">
+	  	<div class="row">
+	  		<div class="col">
+	  			<h2 class="tt-interna">Serviços</h2>
+	  		</div>
+	  	</div>
+	  	
+	  		
+	  	<ul>
+	  		<li ng-repeat="service in services">
+	  			<a class="detrans" ng-href="#/app/servico/{{::service.Servico.id}}" >
+	  				<h4 class="padding-top">{{::service.Servico.servico}}</h4>
+	  				<!-- <p>{{::service.Filiaidistance | distance}}</p> -->
+					<i class="ion-android-pin"></i>
+	  			</a>
+	  		</li>				
+	  	</ul>
+	  	
+
+
+  	</ion-content>
+</ion-view>

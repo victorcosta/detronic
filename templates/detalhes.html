@@ -1,0 +1,61 @@
+<ion-view view-title="Detalhe {{::form.placa | uppercase}}">
+  	<ion-content class="white" overflow-scroll="true">
+	  	<div ng-show="veicleinfo" class="row yellow">
+	  		<div class="col">
+	  			<a class="tt-detalhes">{{::form.placa | uppercase}} <span>{{::veicleinfo.Marca}}  - {{::veicleinfo.Ano}}</span></a>
+	  		</div>
+	  	</div>
+	  	<div ng-show="veicleinfo" class="row">
+	  		<div class="containter">
+		  		<div class="row borderbottom">
+			  		<div class="col">
+			  			<h5 style="margin-bottom: 2px;" >Dados do veículo</h5>
+			  		</div>
+		  		</div>
+		  		<div class="row borderbottom">
+			  		<div class="col">
+			  			<p class="desc">Renavam</p>
+			  			<p>{{::form.renavam}}</p>
+			  		</div>
+			  		<div class="col">
+			  			<p class="desc">Placa</p>
+			  			<p>{{::form.placa | uppercase}}</p>
+			  		</div>
+			  		<div class="col">
+			  			<p class="desc">Tipo</p>
+			  			<p>{{::veicleinfo.Tipo}}</p>
+			  		</div>
+			  		<div class="col">
+			  			<p class="desc">Lugares</p>
+			  			<p>{{::veicleinfo.Lugares}}</p>
+			  		</div>
+		  		</div>
+		  		<div class="row borderbottom">
+			  		<div class="col col-75">
+			  			<p class="desc">Marca/Modelo</p>
+			  			<p>{{::veicleinfo.Marca}}</p>
+			  		</div>
+			  		<div class="col">
+			  			<p class="desc">Ano</p>
+			  			<p>{{::veicleinfo.Ano}}</p>
+			  		</div>
+		  		</div>
+		  		<div class="row borderbottom">
+			  		<div class="col col-75">
+			  			<p class="desc">Proprietário</p>
+			  			<p>{{::veicleinfo.NomeProprietario}}</p>
+			  		</div>
+			  		<div class="col">
+			  			<p class="desc">Combustivel</p>
+			  			<p>{{::veicleinfo.Combustivel}}</p>
+			  		</div>
+		  		</div>
+	  		</div>
+	  	</div>
+	  	
+	  		
+	  	
+
+
+  	</ion-content>
+</ion-view>

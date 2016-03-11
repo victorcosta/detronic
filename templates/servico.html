@@ -1,0 +1,23 @@
+<ion-view view-title="Serviços">
+  	<ion-content overflow-scroll="true">
+	  	<div class="row">
+	  		<div class="col">
+	  			<h2 class="tt-interna">{{title}}</h2>
+	  		</div>
+	  	</div>
+	  	
+	  		
+	  	<ul>
+	  		<li ng-repeat="detran in myLocation | orderBy: '+distance'">
+	  			<a class="detrans" ng-click="getLink(detran.latitude,detran.longitude)">
+	  				<h4>{{::detran.title}}</h4>
+	  				<p>{{::detran.distance | distance}}</p>
+					<i class="ion-android-pin"></i>
+	  			</a>
+	  		</li>				
+	  	</ul>
+	  	
+
+
+  	</ion-content>
+</ion-view>
